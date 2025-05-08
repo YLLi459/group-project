@@ -220,13 +220,74 @@ header nav ul li a:hover {
 
 
 
-footer {
-    background-color: #111;
-    color: white;
-    padding: 20px;
+/* General Footer Styles */
+.footer {
+    background-color: black;
+    color: #ecf0f1;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 220px;
+    margin: 10px;
+  }
+  
+  .footer-section h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #d18fa1;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #d18fa1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    background-color: #d18fa1;
+  }
+  
+  .footer-bottom {
     text-align: center;
-}
-
-footer p {
-    font-size: 1.1em;
-}
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  

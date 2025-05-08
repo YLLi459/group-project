@@ -6,13 +6,13 @@
   
   body {
     font-family: 'Arial', sans-serif;
-    background-color: #f1f1f1;
-    color: #333;
+    background-color: darkgrey;
+    color: black;
     line-height: 1.6;
   }
   
   header {
-    background-color: #2c2c2c;
+    background-color: black;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -33,7 +33,7 @@
   }
   
   nav a {
-    color: #fff;
+    color: gray;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
@@ -53,7 +53,7 @@
   }
   
   .hero .hero-content {
-    color: #fff;
+    color: black;
     text-align: center;
   }
   
@@ -91,7 +91,7 @@
   }
   
   .parfume-card {
-    background-color: #fff;
+    background-color: lightgray;
     padding: 20px;
     margin: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -129,7 +129,7 @@
   }
   
   #brendet {
-    background-color: white; 
+    background-color: lightgray; 
     color: white;
     padding: 40px;
     border-radius: 8px;
@@ -180,14 +180,73 @@
 
 
 
-  footer {
-    background-color: #2c2c2c;
-    color: #fff;
-    text-align: center;
-    padding: 15px;
-    font-size: 1rem;
-    margin-top: 40px;
-  }
-  #h1{
-    color: lightgrey;
-  }  
+.footer {
+  background-color: black;
+  color: #ecf0f1;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 220px;
+  margin: 10px;
+}
+
+.footer-section h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #d18fa1;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #d18fa1;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  background-color: #d18fa1;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
