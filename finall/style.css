@@ -1,0 +1,170 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f0f0f;
+    color: #eee;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #e50914;
+    font-size: 2.5em;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #e50914;
+  }
+  
+  .hero {
+    background: url('https://images.unsplash.com/photo-1635776061146-3c09c0d2facc') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .hero .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+  }
+  
+  .card {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px #e50914;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  h3, h4 {
+    color: #e50914;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+
+#brendet {
+    background-color: gray; 
+    padding: 30px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  #brendet h3 {
+    color: #333; 
+    font-size: 1.8em; 
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+
+  #brendet p {
+    color: #555;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+ 
+  #brendet ul {
+    list-style-type: none; 
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  #brendet li {
+    margin: 10px 20px;
+  }
+  
+  #brendet a {
+    color: #2C3E50; 
+    font-size: 1.2em;
+    text-decoration: none; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease; 
+    font-family: 'Arial', sans-serif;
+  }
+  
+ 
+  #brendet a:hover {
+    background-color: #2980b9; 
+    color: white; 
+    transform: translateY(-3px); 
+  }
+  
+  
+  /* #brendet a[href^="https://www.youtube.com"] {
+    background-color: #FF0000; 
+    color: white;
+  }
+  
+  #brendet a[href^="https://www.youtube.com"]:hover {
+    background-color: #c0392b; 
+  }
+   */
+
+
+
+  footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+  }
+
+  
+
+
+  

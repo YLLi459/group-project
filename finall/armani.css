@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f3f3f3;
+    color: #222;
+  }
+  
+  .main-header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .main-header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  nav a:hover {
+    color: #c7a97a;
+  }
+  
+  .hero {
+    background: url('https://images.unsplash.com/photo-1600180758890-6a3b3bfa9b4c') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background: #c7a97a;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #a88e67;
+  }
+  
+  .history, .contact {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .parfume-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .parfume-section h2 {
+    margin-bottom: 40px;
+    color: #222;
+  }
+  
+  .card {
+    display: inline-block;
+    width: 280px;
+    margin: 20px;
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: 0.4s;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  .card h3 {
+    padding: 10px 0;
+    color: #c7a97a;
+  }
+  
+  .card p {
+    padding: 0 15px 20px;
+    font-size: 0.95rem;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  #brendet {
+    background-color: lightgrey;
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Hije e lehtë për të shtuar thellësi */
+    text-align: center;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+#brendet h3 {
+    font-size: 2.5em;
+    font-family: 'Georgia', serif; /* Font elegant për një stil të sofistikuar */
+    color: #e0a9c6; /* Ngjyrë ari e butë për të shtuar luks */
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Për të rritur ndikimin vizual */
+}
+
+#brendet p {
+    font-size: 1.2em;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+#brendet ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#brendet ul li {
+    margin: 15px 0;
+}
+
+#brendet ul li a {
+    color: #e0a9c6; 
+    text-decoration: none;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#brendet ul li a:hover {
+    color: #d18fa1; 
+    transform: translateX(10px);
+}
+
+  footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
