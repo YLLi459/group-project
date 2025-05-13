@@ -3,6 +3,7 @@ body {
     background-color: #0f0f0f;
     color: #eee;
     margin: 0;
+    height: 100%;
   }
   
   header {
@@ -157,12 +158,13 @@ body {
 
 
 
-<<<<<<< HEAD
+
    * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-=======
+
+    
   /* footer {
     background-color: #1a1a1a;
     text-align: center;
@@ -330,7 +332,7 @@ body {
 }
 
 #brendet ul li a {
-    color: #e0a9c6; /* E njëjta ngjyrë ari për lidhjet */
+    color: #e0a9c6; E njëjta ngjyrë ari për lidhjet
     text-decoration: none;
     font-size: 1.3em;
     text-transform: uppercase;
@@ -342,7 +344,7 @@ body {
 
 #brendet ul li a:hover {
     color: #d18fa1; /* Ngjyrë më e ngrohtë për efektin e hover-it */
-    transform: translateX(10px); /* Efekti i lëvizjes për të theksuar lidhjet */
+    /* transform: translateX(10px); Efekti i lëvizjes për të theksuar lidhjet */
 }
 
 
@@ -422,9 +424,10 @@ body {
   
 
 
-   */
+   
 
-   /* CSS */
+ 
+
 .footer {
   background-color: #111;
   color: #fff;
@@ -485,4 +488,19 @@ body {
   padding-top: 20px;
   border-top: 1px solid #333;
   font-size: 14px;
+}
+
+
+.container-vid {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100%;              
+  margin-left: 50px;
+}
+
+video {
+  border: 5px solid #ccc; 
+  border-radius: 8px;      
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
