@@ -2,72 +2,116 @@
 <html lang="sq">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Parfume për Meshkuj - Edgy</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Informacione për Parfume | Eksploro Aromat</title>
+  <link rel="stylesheet" href="style.css">
+ 
 </head>
 <body>
   <header>
-    <h1>🔥 Parfume për Meshkuj</h1>
+    <h1>Parfumé Info</h1>
     <nav>
       <ul>
-        <li><a href="#top">Top Parfume</a></li>
-        <li><a href="#notat">Notat</a></li>
-        <li><a href="#brendet">Brendet</a></li>
-        <li><a href="#raste">Raste</a></li>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#types">Llojet</a></li>
+        <li><a href="#notes">Notat</a></li>
+        <li><a href="#brands">Brendet</a></li>
+        <li><a href="#interactive">Këshilla</a></li>
       </ul>
     </nav>
   </header>
-
+  
   <main>
+    <section id="hero" class="hero" aria-label="Përshkrimi i parfumëve">
+      <h2>Mirësevini në Botën e Parfumëve</h2>
+      <p>Zbuloni aromat që flasin për stilin dhe personalitetin tuaj. Parfumet janë më shumë se aroma – janë një përvojë.</p>
+    </section>
 
-   
-
-   
-    <section class="hero">
-      <div class="overlay">
-        <h2>Stil. Brend. Aromë.</h2>
-        <p>Zgjedh parfumin që të përfaqëson – çdo ditë, çdo moment.</p>
+    <section id="types">
+      <h3>Llojet e Parfumëve</h3>
+      <div class="cards" role="list">
+        <article class="card" role="listitem" tabindex="0" aria-label="Parfum Eau de Parfum">
+          <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=400&q=80" alt="Bottles of Eau de Parfum" />
+          <h4>Eau de Parfum</h4>
+          <p>Aroma intensive me %
+            më të lartë për një qëndrim më të gjatë në lëkurë. Ideal për mbrëmje apo raste speciale.</p>
+        </article>
+        <article class="card" role="listitem" tabindex="0" aria-label="Parfum Eau de Toilette">
+          <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=400&q=80" alt="Bottles of Eau de Toilette" />
+          <h4>Eau de Toilette</h4>
+          <p>Aroma më e lehtë dhe freskuese, perfekt për përdorim ditor dhe ambiente më të mëdha.</p>
+        </article>
+        <article class="card" role="listitem" tabindex="0" aria-label="Parfum Eau de Cologne">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Bottle of Eau de Cologne" />
+          <h4>Eau de Cologne</h4>
+          <p>Aroma shumë e freskët dhe e lehtë, më pak e qëndrueshme, ideale për ditë të nxehta vere.</p>
+        </article>
       </div>
     </section>
 
-    <section id="top" class="cards">
-      <div class="card">
-        <img src="dior.jpg" alt="Dior Sauvage" />
-        <h4>Dior Sauvage</h4>
-        <p>Aromë e egër me bergamot, piper dhe ambroxan.</p>
-      </div>
-      <div class="card">
-        <img src="dior.png" alt="Bleu de Chanel" />
-        <h4>Bleu de Chanel</h4>
-        <p>Elegant, i sofistikuar – për ditë dhe mbrëmje.</p>
-      </div>
-      <div class="card">
-        <img src="aqua.png" alt="Acqua di Giò" />
-        <h4>Acqua di Giò</h4>
-        <p>Freski mesdhetare me stil italian – klasik modern.</p>
-      </div>
-    </section>
-
-    <br>
-    <br>
-
-    <div class="container-vid">
-      <video width="640" height="360" controls>
-        <source src="video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-     </div>
-
-    <section id="notat">
-      <h3>🌿 Notat Aromatike</h3>
-      <p>Kombinime që lënë gjurmë:</p>
+    <section id="notes">
+      <h3>Notat aromatike kryesore</h3>
       <ul>
-        <li>Piper i zi & Druri</li>
-        <li>Bergamot & Limon</li>
-        <li>Ambër & Musk</li>
+        <li><strong>Top Notes:</strong> Aromat e para që ndihen, si agrumet dhe erëzat e lehta.</li>
+        <li><strong>Heart Notes:</strong> Zemra e parfumit që zgjat më shumë, përfshin lule dhe fruta.</li>
+        <li><strong>Base Notes:</strong> Aromat që qëndrojnë gjatë, si druri, amber dhe musku.</li>
       </ul>
     </section>
+
+    <section id="brands">
+      <h3>Brendet më të njohura</h3>
+      <div class="cards" role="list">
+        <article class="card" role="listitem" tabindex="0" aria-label="Brand Dior">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Dior_Logo.svg/2560px-Dior_Logo.svg.png" alt="Dior logo" />
+          <h4>Dior</h4>
+          <p>Ideal për ata që duan elegancë dhe sofisticim.</p>
+        </article>
+        <article class="card" role="listitem" tabindex="0" aria-label="Brand Chanel">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Chanel_logo_interlocking_cs.svg/2048px-Chanel_logo_interlocking_cs.svg.png" alt="Chanel logo" />
+          <h4>Chanel</h4>
+          <p>Klasik dhe i përjetshëm, një zgjedhje e sigurtë për çdo rast.</p>
+        </article>
+        <article class="card" role="listitem" tabindex="0" aria-label="Brand Armani">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Armani_Logo.svg/2560px-Armani_Logo.svg.png" alt="Armani logo" />
+          <h4>Armani</h4>
+          <p>Modern dhe i rafinuar, për meshkujt që kërkojnë stil të pastër.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="interactive" class="interactive" aria-live="polite">
+      <h3>Këshilla për Parfumet</h3>
+      <p>Kliko butonin për një këshillë të rastësishme se si të zgjedhësh parfumet më të mira për ty.</p>
+      <button id="tipButton" aria-describedby="tipText">Më jep një këshillë</button>
+      <p id="tipText" class="tip" aria-live="polite" aria-atomic="true"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Parfumé. Të gjitha të drejtat e rezervuara. | <a href="mailto:info@parfume.com">Kontakto</a></p>
+  </footer>
+
+  <script>
+    // Dynamic year for footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Tips array for interactive section
+    const tips = [
+      'Zgjidhni parfumet që përputhen me stinën - aroma më të freskëta për verën, më të gjatë për dimrin.',
+      'Aplikoni parfum vetëm në pika të nxehta si bërrylat dhe qafa për efekt më të mirë.',
+      'Mos përdorni shumë parfum; disa pika janë më efektive se shumë.',
+      'Eksperimentoni me nota të ndryshme për të krijuar aromën tuaj unike.',
+      'Ruani parfumet në vende të freskëta dhe të errëta për të ruajtur aromën më gjatë.'
+    ];
+
+    const tipButton = document.getElementById('tipButton');
+    const tipText = document.getElementById('tipText');
+
+    tipButton.addEventListener('click', () => {
+      const randomTip = tips[Math.floor(Math.random() * tips.length)];
+      tipText.textContent = randomTip;
+    });
+  </script>
 
     <section id="brendet">
       <h3>✨ Brendet më të njohura</h3>
@@ -80,56 +124,6 @@
       </ul>
     </section>
 
-    <section id="raste">
-      <h3>🎯 Parfume sipas rasteve</h3>
-      <p>Perfekte për çdo situatë:</p>
-      <ul>
-        <li><strong>Punë:</strong> Bleu de Chanel</li>
-        <li><strong>Takim romantik:</strong> Dior Sauvage Elixir</li>
-        <li><strong>Mbrëmje gala:</strong> Tom Ford Noir Extreme</li>
-      </ul>
-    </section>
-  </main>
-
-
-
-  
-
-
-<footer class="footer">
-  <div class="footer-container">
-    <div class="footer-about">
-      <h2>Parfumé</h2>
-      <p>Eksploro aromat që flasin për ty. Parfume origjinale nga brendet më të njohura botërore.</p>
-    </div>
-    <div class="footer-links">
-      <h3>Linqe të Shpejta</h3>
-      <ul>
-        <li><a href="#">Kreu</a></li>
-        <li><a href="#">Produktet</a></li>
-        <li><a href="#">Rreth Nesh</a></li>
-        <li><a href="#">Kontakt</a></li>
-      </ul>
-    </div>
-    <div class="footer-contact">
-      <h3>Kontakti</h3>
-      <p>Email: <a href="mailto:info@parfume.com">info@parfume.com</a></p>
-      <p>Tel: +383 44 000 000</p>
-      <div class="social-icons">
-        <a href="#"><i class="fab fa-facebook-f">Facebook </i></a>
-        <a href="#"><i class="fab fa-instagram"> Instagram</i></a>
-        <a href="#"><i class="fab fa-tiktok"> TikTok</i></a>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>&copy; <span id="year"></span> Parfumé. Të gjitha të drejtat e rezervuara.</p>
-  </div>
-</footer>
-
-
-
-<script src="index.js"> </script>
-
 </body>
 </html>
+
