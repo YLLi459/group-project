@@ -1,280 +1,293 @@
-/* dior.css */
 
-/* General Styles */
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: lightgrey;
-  color: #333;
-  margin: 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #2c2c2c; /* Ngjyrë e errët për të pasur një efekt luksoz */
+    color: #fff;
+    overflow-x: hidden;
+}
+
 
 header {
-  background-color: #1a1a1a;
-  padding: 20px;
-  text-align: center;
-}
-
-header h1 {
-  color: #fff;
-  font-size: 3em;
-}
-
-/* Navbar Styling */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1a1a1a;
-  padding: 10px 20px;
-}
-
-.navbar .logo a {
-  color: #e50914;
-  font-size: 24px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.navbar .nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.navbar .nav-links li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.navbar .nav-links li a:hover {
-  color: #e50914;
-}
-
-.navbar .hamburger {
-  display: none;
-  cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .navbar .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background-color: #1a1a1a;
-    padding: 10px;
-    border-radius: 5px;
-  }
-
-  .navbar .nav-links.active {
+    background: #111; /* E zeza e errët për një pamje elegante */
+    color: white;
+    padding: 30px 50px;
     display: flex;
-  }
+    justify-content: space-between;
+    align-items: center;
+}
 
-  .navbar .hamburger {
-    display: block;
-  }
+header .logo h1 {
+    font-size: 3em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Georgia', serif;
+}
 
-  .navbar .nav-links li a {
-    padding: 10px;
-    font-size: 20px;
-  }
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid #e0a9c6;
+    padding-bottom: 5px;
 }
 
 
 .hero {
-  background: url('https://images.unsplash.com/photo-1600700427340-350a63eb7cc5') no-repeat center center/cover;
-  height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+    background-image: url('https://via.placeholder.com/1600x800'); /* Imazh luksoz për parfumet Tom Ford */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+    position: relative;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
 }
 
-.hero .overlay {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 40px;
-  text-align: center;
-  color: #fff;
+.hero-content {
+    z-index: 1;
 }
 
-h2, h3, h4 {
-  color: #e50914;
+.hero h2 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
-.cards {
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
-  padding: 40px 20px;
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
 }
 
-.card {
-  background-color: #1a1a1a;
-  border-radius: 10px;
-  padding: 20px;
-  width: 250px;
-  text-align: center;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+.hero .btn {
+    background-color: #e0a9c6;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
 }
 
-.card img {
-  width: 100%;
-  border-radius: 8px;
-  transition: transform 0.3s;
+.hero .btn:hover {
+    background-color: #d18fa1;
 }
 
-.card:hover img {
-  transform: scale(1.1);
+.about {
+    background-color: #333;
+    padding: 80px 50px;
+    text-align: center;
 }
 
-button.buy-btn {
-  background-color: #e50914;
-  color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
-  margin-top: 10px;
-  transition: background-color 0.3s;
+.about h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #e0a9c6;
 }
 
-button.buy-btn:hover {
-  background-color: #b20710;
+.about p {
+    font-size: 1.2em;
+    color: #ccc;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-section {
-  padding: 40px 20px;
+
+.product-showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 50px;
+    background-color: #2c2c2c;
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 0;
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    gap: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #111;
+    padding: 30px;
 }
 
-ul li {
-  padding: 8px 0;
+.product img {
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
-.footer {
-  background-color: black;
-  color: #ecf0f1;
-  padding: 40px 20px;
-  font-family: 'Arial', sans-serif;
+.product-info {
+    max-width: 500px;
 }
 
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.product-info h3 {
+    font-size: 2.5em;
+    color: #e0a9c6;
+    margin-bottom: 20px;
 }
 
-.footer-section {
-  flex: 1;
-  min-width: 220px;
-  margin: 10px;
+.product-info p {
+    font-size: 1.1em;
+    color: #ddd;
+    margin-bottom: 30px;
 }
 
-.footer-section h5 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #d18fa1;
+.product-info .btn {
+    background-color: #e0a9c6;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
 }
 
-.footer-section ul {
-  list-style: none;
-  padding: 0;
+.product-info .btn:hover {
+    background-color: #d18fa1;
 }
-
-.footer-section ul li {
-  margin-bottom: 8px;
-}
-
-.footer-section ul li a {
-  color: #ecf0f1;
-  text-decoration: none;
-}
-
-.footer-section ul li a:hover {
-  text-decoration: underline;
-}
-
-.social-icons {
-  display: flex;
-  gap: 10px;
-}
-
-.social-icon {
-  width: 30px;
-  height: 30px;
-  background-color: #d18fa1;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  text-decoration: none;
-}
-
-.social-icon:hover {
-  background-color: #d18fa1;
-}
-
-.footer-bottom {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 14px;
-}
-
 
 #brendet {
-  background-color: lightgray; 
-  color: white;
-  padding: 40px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
-  text-align: center;
-  max-width: 800px;
-  margin: 50px auto;
+    background-color: #2c2c2c; /* E zezë e errët për të ruajtur një atmosferë luksoze */
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Hije e lehtë për të shtuar thellësi */
+    text-align: center;
+    max-width: 800px;
+    margin: 50px auto;
 }
 
 #brendet h3 {
-  font-size: 2.5em;
-  font-family: 'Georgia', serif; 
-  color: #e0a9c6; 
-  margin-bottom: 20px;
-  text-transform: uppercase;
+    font-size: 2.5em;
+    font-family: 'Georgia', serif; /* Font elegant për një stil të sofistikuar */
+    color: #e0a9c6; /* Ngjyrë ari e butë për të shtuar luks */
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Për të rritur ndikimin vizual */
 }
 
 #brendet p {
-  font-size: 1.2em;
-  color: #ccc;
-  margin-bottom: 30px;
+    font-size: 1.2em;
+    color: #ccc;
+    margin-bottom: 30px;
 }
 
 #brendet ul {
-  list-style-type: none;
-  padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 
 #brendet ul li {
-  margin: 15px 0;
+    margin: 15px 0;
 }
 
 #brendet ul li a {
-  color: #e0a9c6; /* E njëjta ngjyrë ari për lidhjet */
-  text-decoration: none;
-  font-size: 1.3em;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 2px;
-  display: inline-block;
-  transition: color 0.3s ease, transform 0.3s ease;
+    color: #e0a9c6; /* E njëjta ngjyrë ari për lidhjet */
+    text-decoration: none;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 #brendet ul li a:hover {
-  color: #d18fa1; /* Ngjyrë më e ngrohtë për efektin e hover-it */
-  transform: translateX(10px); /* Efekti i lëvizjes për të theksuar lidhjet */
+    color: #d18fa1; 
+    transform: translateX(10px); 
 }
+
+
+
+
+/* General Footer Styles */
+.footer {
+    background-color: black;
+    color: #ecf0f1;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 220px;
+    margin: 10px;
+  }
+  
+  .footer-section h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #d18fa1;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #d18fa1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    background-color: #d18fa1;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
