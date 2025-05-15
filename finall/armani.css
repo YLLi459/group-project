@@ -134,7 +134,7 @@
     color: white;
     padding: 40px;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Hije e lehtë për të shtuar thellësi */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
     text-align: center;
     max-width: 800px;
     margin: 50px auto;
@@ -142,10 +142,10 @@
 
 #brendet h3 {
     font-size: 2.5em;
-    font-family: 'Georgia', serif; /* Font elegant për një stil të sofistikuar */
-    color: #e0a9c6; /* Ngjyrë ari e butë për të shtuar luks */
+    font-family: 'Georgia', serif; 
+    color: #e0a9c6; 
     margin-bottom: 20px;
-    text-transform: uppercase; /* Për të rritur ndikimin vizual */
+    text-transform: uppercase; 
 }
 
 #brendet p {
@@ -273,7 +273,7 @@
   background: #fff;
 }
 nav{
-  position: fixed;
+  position: absolute;
   background: #1b1b1b;
   width: 100%;
   padding: 10px 0;
