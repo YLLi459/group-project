@@ -46,7 +46,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    border-bottom: 2px solid #e0a9c6;
+    border-bottom: 2px solid blueviolet;
     padding-bottom: 5px;
 }
 
@@ -79,7 +79,7 @@ header nav ul li a:hover {
 }
 
 .hero .btn {
-    background-color: #e0a9c6;
+    background-color: blueviolet;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
@@ -88,7 +88,7 @@ header nav ul li a:hover {
 }
 
 .hero .btn:hover {
-    background-color: #d18fa1;
+    background-color: blueviolet;
 }
 
 .about {
@@ -100,7 +100,7 @@ header nav ul li a:hover {
 .about h2 {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #e0a9c6;
+    color: blueviolet;
 }
 
 .about p {
@@ -144,7 +144,7 @@ header nav ul li a:hover {
 
 .product-info h3 {
     font-size: 2.5em;
-    color: #e0a9c6;
+    color: blueviolet;
     margin-bottom: 20px;
 }
 
@@ -155,7 +155,7 @@ header nav ul li a:hover {
 }
 
 .product-info .btn {
-    background-color: #e0a9c6;
+    background-color: blueviolet;
     color: white;
     padding: 12px 25px;
     text-decoration: none;
@@ -164,7 +164,7 @@ header nav ul li a:hover {
 }
 
 .product-info .btn:hover {
-    background-color: #d18fa1;
+    background-color: blueviolet;
 }
 
 #brendet {
@@ -181,7 +181,7 @@ header nav ul li a:hover {
 #brendet h3 {
     font-size: 2.5em;
     font-family: 'Georgia', serif; /* Font elegant për një stil të sofistikuar */
-    color: #e0a9c6; /* Ngjyrë ari e butë për të shtuar luks */
+    color: blueviolet; /* Ngjyrë ari e butë për të shtuar luks */
     margin-bottom: 20px;
     text-transform: uppercase; /* Për të rritur ndikimin vizual */
 }
@@ -202,7 +202,7 @@ header nav ul li a:hover {
 }
 
 #brendet ul li a {
-    color: #e0a9c6; /* E njëjta ngjyrë ari për lidhjet */
+    color: blueviolet; /* E njëjta ngjyrë ari për lidhjet */
     text-decoration: none;
     font-size: 1.3em;
     text-transform: uppercase;
@@ -213,7 +213,7 @@ header nav ul li a:hover {
 }
 
 #brendet ul li a:hover {
-    color: #d18fa1; 
+    color: blueviolet; 
     transform: translateX(10px); 
 }
 
@@ -243,7 +243,7 @@ header nav ul li a:hover {
   .footer-section h5 {
     font-size: 18px;
     margin-bottom: 10px;
-    color: #d18fa1;
+    color: blueviolet;
   }
   
   .footer-section ul {
@@ -272,7 +272,7 @@ header nav ul li a:hover {
   .social-icon {
     width: 30px;
     height: 30px;
-    background-color: #d18fa1;
+    background-color: blueviolet;
     color: #fff;
     display: flex;
     align-items: center;
@@ -282,7 +282,7 @@ header nav ul li a:hover {
   }
   
   .social-icon:hover {
-    background-color: #d18fa1;
+    background-color: blueviolet;
   }
   
   .footer-bottom {
