@@ -5,7 +5,7 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     body {
-      background: linear-gradient(135deg, #fceabb, #f8b500);
+      background: linear-gradient(135deg, #fceabb, gray);
       color: #222;
       line-height: 1.6;
       min-height: 100vh;
@@ -141,7 +141,7 @@
       user-select: none;
     }
     .interactive button {
-      background-color: #f8b500;
+      background-color: gray;
       border: none;
       padding: 0.75rem 1.5rem;
       color: #1f1f1f;
@@ -201,7 +201,7 @@
 
 
     #brendet {
-    background-color: yellow; 
+    background-color: gray; 
     padding: 30px;
     border-radius: 10px; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
