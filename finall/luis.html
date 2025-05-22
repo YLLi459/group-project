@@ -4,83 +4,88 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Louis Vuitton Parfume - Elegancë dhe Traditë</title>
+
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="luis.css" />
 </head>
 <body>
-  <header>
+  <header class="container">
     <div class="logo">
-      <img src="logo.jpg" alt="Louis Vuitton Logo" />
+      <img src="logo.jpg" alt="Louis Vuitton Logo" class="img-fluid" />
     </div>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#history">Historia</a></li>
-        <li><a href="#top">Top Parfume</a></li>
-        <li><a href="#details">Detajet</a></li>
+      <ul class="nav justify-content-center">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#history" class="nav-link">Historia</a></li>
+        <li class="nav-item"><a href="#top" class="nav-link">Top Parfume</a></li>
+        <li class="nav-item"><a href="#details" class="nav-link">Detajet</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-content">
-        <h1 id="h1">Louis Vuitton Parfume</h1>
-        <p id="h1">Aromë luksoze dhe sofistikuar për çdo moment të jetës tuaj.</p>
-        <a href="#top" class="btn">Zgjidh Parfumin Tëndë</a>
+    <section class="hero container-fluid">
+      <div class="hero-content text-center">
+        <h1 id="hero-title">Louis Vuitton Parfume</h1>
+        <p id="hero-description">Aromë luksoze dhe sofistikoar për çdo moment të jetës tuaj.</p>
+        <a href="#top" class="btn btn-primary">Zgjidh Parfumin Tëndë</a>
       </div>
     </section>
 
-
-    <section id="top" class="top-parfume">
+    <section id="top" class="top-parfume container mt-5">
       <h2>Top Parfume Louis Vuitton</h2>
-      <div class="parfume-card">
-        <img src="Le.webp" alt="Louis Vuitton Le Jour Se Lève" />
-        <h3>Le Jour Se Lève</h3>
-        <p>Aromë energjike dhe e freskët që ngjall ndjesinë e mëngjesit të pastër dhe të qetë.</p>
-      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="parfume-card">
+            <img src="Le.webp" alt="Louis Vuitton Le Jour Se Lève" class="img-fluid" />
+            <h3>Le Jour Se Lève</h3>
+            <p>Aromë energjike dhe e freskët që ngjall ndjesinë e mëngjesit të pastër dhe të qetë.</p>
+          </div>
+        </div>
 
-      <div class="parfume-card">
-        <img src="nomad.webp" alt="Louis Vuitton Ombre Nomade" />
-        <h3>Ombre Nomade</h3>
-        <p>Aromë pasionante që bashkon pasurinë e drurëve të rrallë dhe luleve ekzotike për një ndjesi misterioze.</p>
-      </div>
+        <div class="col-md-3">
+          <div class="parfume-card">
+            <img src="nomad.webp" alt="Louis Vuitton Ombre Nomade" class="img-fluid" />
+            <h3>Ombre Nomade</h3>
+            <p>Aromë pasionante që bashkon pasurinë e drurëve të rrallë dhe luleve ekzotike për një ndjesi misterioze.</p>
+          </div>
+        </div>
 
-      <div class="parfume-card">
-        <img src="rose.webp" alt="Louis Vuitton Rose des Vents" />
-        <h3>Rose des Vents</h3>
-        <p>Një aromë me nuanca lulesh dhe nota freskuese, që sjell ndjesinë e ngrohtësisë së verës.</p>
+        <div class="col-md-3">
+          <div class="parfume-card">
+            <img src="rose.webp" alt="Louis Vuitton Rose des Vents" class="img-fluid" />
+            <h3>Rose des Vents</h3>
+            <p>Një aromë me nuanca lulesh dhe nota freskuese, që sjell ndjesinë e ngrohtësisë së verës.</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="parfume-card">
+            <img src="simphony.webp" alt="Louis Vuitton Symphony" class="img-fluid" />
+            <h3>Louis Vuitton Symphony</h3>
+            <p>Ka nota të freskëta dhe të ëmbla agrume si limon, portokall dhe bergamot, të cilat krijojnë një hapje të ndritshme dhe energjike, duke tërhequr menjëherë vëmendjen.</p>
+          </div>
+        </div>
       </div>
-      <div class="parfume-card">
-        <img src="simphony.webp" alt="Louis Vuitton Rose des Vents" />
-        <h3>Louis Vuitton Symphony  </h3>
-        <p>Ka nota të freskëta dhe të ëmbla agrume si limon, portokall dhe bergamot, të cilat krijojnë një hapje të ndritshme dhe energjike, duke tërhequr menjëherë vëmendjen.</p>
-      </div>
+      
     </section>
 
-    <!-- <section id="details" class="details-section">
-      <h2>Detajet e Parfumeve</h2>
-      <p>Çdo parfum i Louis Vuitton është një kombinim perfekt i përbërësve të natyrshëm dhe ekstrave të larta, të krijuara nga mjeshtra të vërtetë të parfumerisë. Aromat janë të veçanta, me nuanca të drurëve, luleve dhe agrumeve, të dizajnuara për të pasur një ndikim të fortë dhe të vazhdueshëm.</p>
-      <ul>
-        <li>Jaseminë e rafinuar</li>
-        <li>Aromë e përzjerë agrumesh, si portokalli dhe bergamot</li>
-        <li>Patchouli dhe drurë të ndaluar për një pasuri të thellë</li>
-        <li>Vanilje dhe muskuj për një përfundim të ëmbël dhe të ngrohtë</li>
+   
+    <section id="brendet" class="container mt-5">
+      <h3>✨ Brendet më të njohura</h3>
+      <p>Të preferuarat nga meshkujt anembanë botës:</p>
+      <ul class="list-unstyled">
+        <li><a href="dior.html">DIOR</a></li>
+        <li><a href="armani.html">ARMANI</a></li>
+        <li><a href="tomford.html">TOM FORD</a></li>
+        <li><a href="index.html">Home</a></li>
       </ul>
-    </section> -->
+    </section>
   </main>
 
-  <section id="brendet">
-    <h3>✨ Brendet më të njohura</h3>
-    <p>Të preferuarat nga meshkujt anembanë botës:</p>
-    <ul>
-      <li><a href="dior.html">DIOR</a></li>
-      <li><a href="armani.html">ARMANI</a></li>
-      <li><a href="tomford.html">TOM FORD</a></li>
-      <li><a href="index.html">Home</a></li>
-    </ul>
-  </section>
-  <footer class="footer">
-    <div class="footer-container">
+  <footer class="footer bg-dark text-white mt-5">
+    <div class="footer-container container py-4">
       <div class="footer-section">
         <h5>Perfume Co.</h5>
         <p>Your destination for luxury fragrances.</p>
@@ -88,32 +93,37 @@
       <div class="footer-section">
         <h5>Customer Service</h5>
         <ul>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Shipping Info</a></li>
-          <li><a href="#">Returns & Exchanges</a></li>
+          <li><a href="#" class="text-white">Contact Us</a></li>
+          <li><a href="#" class="text-white">Shipping Info</a></li>
+          <li><a href="#" class="text-white">Returns & Exchanges</a></li>
         </ul>
       </div>
       <div class="footer-section">
         <h5>Quick Links</h5>
         <ul>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#" class="text-white">Shop</a></li>
+          <li><a href="#" class="text-white">About Us</a></li>
+          <li><a href="#" class="text-white">Privacy Policy</a></li>
         </ul>
       </div>
       <div class="footer-section">
         <h5>Follow Us</h5>
         <div class="social-icons">
-          <a href="#" class="social-icon">F</a>
-          <a href="#" class="social-icon">T</a>
-          <a href="#" class="social-icon">I</a>
+          <a href="#" class="social-icon text-white">F</a>
+          <a href="#" class="social-icon text-white">T</a>
+          <a href="#" class="social-icon text-white">I</a>
         </div>
       </div>
     </div>
-    <div class="footer-bottom">
+    <div class="footer-bottom text-center py-2">
       <p>&copy; 2025 Perfume Co. All rights reserved.</p>
     </div>
   </footer>
-  
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <script src="luis.js"></script>
+
 </body>
 </html>
